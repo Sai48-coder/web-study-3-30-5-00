@@ -1,0 +1,11 @@
+.head{
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.form{
+    width: 30vw;
+    height: 25vh;
+    border: 2px solid rgba(126, 121, 121, 0.571);
+}

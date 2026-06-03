@@ -1,0 +1,45 @@
+.navbar{
+    width: 100%;
+    height: 5vh;
+    box-shadow: 0 0 5px brown;
+
+}
+.navbar h1{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.Card{
+    width: 20vw;
+    height: 60vh;
+    box-shadow: 0 0 5px blue;
+    margin: 30px auto;
+    padding: 5px;
+}
+.Card > .image{
+    width: 100%;
+    height: 60%;
+    border: 1px solid black;
+    overflow: hidden;
+    position: relative;
+}
+.Card > .image > img{
+    width: 100%;
+    height: 100%;
+}
+.dis{
+    left: 20px;
+    top: 10px;
+    position: absolute;
+    background-color: red;
+    width: 45px;
+    height: 25px;
+    border-radius: 25px;
+}
+.Card > button{
+    color: red;
+
+}
+.Card > input{
+    color: brown;
+}

@@ -1,0 +1,29 @@
+.text:hover{
+    /* yg dak vea oy dg tha nv perl yg pas ler ey derm perl 
+    yg dak hover ng vea do tv tam avey dea yg dak */
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+    size: 20px;
+    text-align: center;
+}
+
+.text{
+    color: aqua;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+p{
+    color: blue;
+    text-align: center;
+}
+p::first-letter{
+    color: yellow;
+    font-size: 50px;
+}
+p:active{transform: scale(9.1);
+}
+input:focus{
+    box-shadow:0 0 10px red;
+    border: none;
+}

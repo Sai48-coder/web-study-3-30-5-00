@@ -1,0 +1,53 @@
+.nav{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(250, 75, 145);
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 30px; 
+    /* gap : kom leat */
+    align-items: center;
+
+}
+.svg{
+    width: 50px;
+    height: 50px;
+}
+.nav > p{
+    font-size: 25px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+.nav > button{
+    height: 80%;
+    width: 10%;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid white;
+    border-radius: 25px;
+    font-weight: bold;
+    background-color: rgba(240, 248, 255, 0);
+    color: white;
+}
+.nav > button:hover{
+    color: black;
+    background-color: white
+}
+.nav2{
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    padding: 15px;
+}
+.img2{
+    width: 60px;
+    height: 50px;
+}
+.img2 > img{
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgba(177, 14, 107, 0);
+    border-radius: 25px;
+}
+
